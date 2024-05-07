@@ -1,0 +1,13 @@
+import { LANGUAGE } from './constants';
+export declare const LENGTH_VALIDATION_ERROR: (min: number, max: number, lang: LANGUAGE) => string;
+export declare const EMAIL_VALIDATION_ERROR: (lang: LANGUAGE) => "Не валидный Email" | "Email is not valid";
+export declare const URL_VALIDATION_ERROR: (lang: LANGUAGE) => "Не валидный URL адрес" | "URL is not valid";
+export declare const STRING_VALDATION_ERROR: (lang: LANGUAGE) => "Не строка" | "Not a string";
+export declare const NUMBER_VALDATION_ERROR: (lang: LANGUAGE) => "Не число" | "Not a number";
+export declare const AUTH_ERROR: (lang: LANGUAGE) => "Токен не действителен" | "Token is not valid";
+export declare const SIGNIN_ERROR: (lang: LANGUAGE) => "Логин или пароль неверны" | "Username or password is mot correct";
+export declare const ACCESS_ERROR: (lang: LANGUAGE) => "Доступ запрещен" | "Access is denied";
+export declare const RAISED_ERROR: (lang: LANGUAGE) => "Сбор средств уже начался" | "The fundraising has already started";
+export declare const USER_EXIST_ERROR: (lang: LANGUAGE) => "Такой юзернейи или почта уже использкется" | "Username or Email heve already used";
+export declare const WISH_BELONGING_ERROR: (lang: LANGUAGE) => "Нельзя поддерживать свои подарки" | "This wish is belong for curent user";
+export declare const OFFER_ERROR: (lang: LANGUAGE) => "Предложение выше, чем остаток цены" | "Offer is more them rest of the price";

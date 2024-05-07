@@ -1,0 +1,10 @@
+import { LANGUAGE } from './constants';
+export declare const LENGTH_VALIDATION_ERROR: (min: number, max: number, lang: LANGUAGE) => string;
+export declare const EMAIL_VALIDATION_ERROR: (lang: LANGUAGE) => "Не валидный Email" | "Email is not valid";
+export declare const URL_VALIDATION_ERROR: (lang: LANGUAGE) => "Не валидный URL адрес" | "URL is not valid";
+export declare const STRING_VALDATION_ERROR: (lang: LANGUAGE) => "Не строка" | "Not a string";
+export declare const NUMBER_VALDATION_ERROR: (lang: LANGUAGE) => "Не число" | "Not a number";
+export declare const AUTH_ERROR: (lang: LANGUAGE) => "Токен не действителен" | "Token is not valid";
+export declare const SIGNIN_ERROR: (lang: LANGUAGE) => "Логин или пароль неверны" | "Username or password is mot correct";
+export declare const ACCESS_ERROR: (lang: LANGUAGE) => "Доступ запрещен" | "Access is denied";
+export declare const RAISED_ERROR: (lang: LANGUAGE) => "Сбор средств уже начался" | "The fundraising has already started";
