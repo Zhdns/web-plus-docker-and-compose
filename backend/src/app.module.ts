@@ -11,6 +11,7 @@ import { Offers } from './offers/offers.model';
 import { WishlistWishes } from './wishlistsWishes/wishlistWishes.model';
 import { Wishlists } from './wishlists/wishlists.model';
 import { WishlistsModule } from './wishlists/wishlists.module';
+require('dotenv').config({path: '../../.env'})
 
 @Module({
   imports: [
