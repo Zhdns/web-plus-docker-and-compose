@@ -1,6 +1,10 @@
-#Commits 
 
-v1.0.0 - first commit
-v1.1.0 - git ignore added 
-v1.1.1 - deliting node_modules from git 
-v2.0.0 - Docker 
+HI/
+
+
+#IP адрес 158.160.130.127
+#Frontend https://kpd.ois.nomoredomainswork.ru
+#Backend https://api.kpd.ois.nomoredomainswork.ru
+
+#ssh ois@158.160.130.127
+
