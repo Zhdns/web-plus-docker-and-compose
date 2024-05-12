@@ -12,6 +12,7 @@ services:
       - 5001:5000
     env_file:
       - .env 
+    restart: on-failure   
 
   frontend:
     networks:
@@ -22,6 +23,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - 4001:80
+    restart: on-failure   
 
   postgres:
     networks:
@@ -32,6 +34,7 @@ services:
       - postgres_data:/data/postgres
     env_file:
       - .env
+    restart: on-failure   
 
   adminer: 
     networks:
@@ -40,6 +43,7 @@ services:
     image: adminer
     ports:
       - 8081:8080
+    restart: on-failure   
 
 networks:
   frontend:
